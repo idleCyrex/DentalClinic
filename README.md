@@ -1,10 +1,10 @@
 # DentalClinic
 
-Welcome to DentalClinic! This repository hosts a modern dental clinic management project.
+This repository hosts a modern dental clinic website.
 
 ## About
 
-DentalClinic is a comprehensive solution for dental practice management, designed to streamline clinic operations, appointments, patient records, and more. The project focuses on usability, efficiency, and providing a seamless experience for both dental professionals and patients.
+A Dental clinic led by Dr. Mariana Pavelescu.
 
 ⚠️ **Work in Progress**  
 This project is still under active development. A backend using Express.js will be implemented soon. Currently, we are waiting for access to the Doctoranytime API from the customer, which will be integrated once available.
