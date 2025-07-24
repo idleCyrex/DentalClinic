@@ -163,6 +163,7 @@ a{
     overflow: hidden;
     margin-right: 10px;
     transition: color 0.3s ease;
+	z-index: 99999;
 
   }
   .custom-button:hover {
@@ -1197,9 +1198,7 @@ a{
 .review-card {
   background: #fff;
   border-radius: 20px;
-  padding: 32px 28px 28px 28px;
-  min-width: 320px;
-  max-width: 370px;
+  width: 370px;
   box-shadow: 0 4px 24px #0002;
   display: flex;
   flex-direction: column;
@@ -1210,6 +1209,9 @@ a{
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  padding-top: 28px;
+  padding-left: 28px;
+  padding-right: 28px;
 }
 .review-stars {
   color: #FFD600;
@@ -1226,17 +1228,24 @@ a{
   color: #333;
   font-size: 1.1rem;
   margin-bottom: 8px;
+    padding-left: 28px;
+  padding-right: 28px;
 }
 .review-text {
   color: #333;
   font-size: 0.98rem;
   margin-bottom: 22px;
   opacity: 0.85;
+    padding-left: 28px;
+  padding-right: 28px;
 }
 .review-user-row {
   display: flex;
   align-items: center;
   margin-top: auto;
+      padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 28px;
 }
 .review-avatar {
   width: 48px;
@@ -1246,6 +1255,7 @@ a{
   margin-right: 14px;
   border: 2.5px solid #50bbe8;
   background: #f0fbfd;
+
 }
 .review-user-name {
   font-weight: 600;
@@ -1681,6 +1691,9 @@ a{
     width: 100vw;
     padding: 0 0 40px 0;
   }
+.cardServices {
+width: 85vw;
+}
   .navbarleft{
     width: 80%;
   }
@@ -1849,7 +1862,7 @@ a{
     left: 0
   }
   .reviews-cards {
-    width: 80vw;
+    width: 85vw;
   }
 
 .newsletter-form{
@@ -1911,6 +1924,17 @@ a{
 .cardServicesImage{
   width: 350px;
 }
+}
+@media (max-height: 749px) and (max-width: 468px) {
+  .mobileHeroImage{
+    width: 60vw;
+  }
+
+}
+@media (max-width: 390px) {
+  .mobileHeroImage{
+    width: 85vw;
+  }
 }
 @media (max-height: 700px) {
   .mobileHeroImage{
